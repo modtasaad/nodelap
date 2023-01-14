@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 50vh;
+    width: 100%;
+    /* background: #eee; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: brown;
+}
+
+
+form{
+    width: 100%;
+    max-width: 400px;
+    background-color:#eee;
+    border: 1px solid rgba(202, 192, 192, 0.759);
+    border-radius: 7px;
+
+    
+}
+
+.input_fild{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.input_fild input{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 7px;
+}
+
+.input_fild .tt {
+    color:blueviolet;
+    text-decoration: none;
+}
+
+
+.input_fild .tt:hover {
+text-decoration: underline;
+color: brown;
+}
+
+.btn{
+    cursor: pointer;
+    
+}
+
+
+.input_fild :focus{
+    border: 2px solid black;
+}
+
+.input_fild :invalid{
+    border: 1px solid red;
+    background-color: rgba(248, 58, 58, 0.47);
+    
+}
+
+.input_fild :valid {
+    border: 1px solid rgba(74, 100, 247, 0.676);
+    background-color:rgba(74, 100, 247, 0.676) ;
+
+}
